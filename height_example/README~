@@ -1,0 +1,14 @@
+This example analyzes hierarchical height data from different countries using a 1-stage (FHM) and a 2-stage (MBA) Bayesian approach. Execute height.comparison.R to run the example. You can use existing heights_table_example files in the analysis or generate a new file using height_generator.R
+
+Files included:			Explanation:
+height_comparison.R		Main file, run this to execute the example
+height_generator.R		Generator to create the height data
+normal_conjugate_functions.R	Function definitions to draw from a normal conjugate posterior
+
+height_full.stan		Stan model for direct inference in full hierarchical model (FHM)
+height_mba_indep.stan		Stan model to draw samples from 1st stage MBA posteriors
+
+heights_table_example1.txt	Example of a data file containing heights, created with height_generator.R
+heights_table_example2.txt	-..-
+heights_table_example3.txt	-..-
+heights_table_example4.txt	-..-

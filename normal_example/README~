@@ -1,0 +1,8 @@
+This example analyzes hierarchical normal data using a 1-stage (FHM) and a 2-stage (MBA) Bayesian approach. Execute normal_comparison.R to run the example.
+
+Files included:			Explanation:
+normal_comparison.R		Main file, run this to execute the example
+normal_conjugate_functions.R	Function definitions to draw from a normal conjugate posterior
+
+norm_full.stan			Stan model for direct inference in full hierarchical model (FHM)
+norm_mba_indep.stan		Stan model to draw samples from 1st stage MBA posteriors
